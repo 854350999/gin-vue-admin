@@ -86,12 +86,12 @@ db-list:
   - disabled: true # 是否启用
     type: "" # 数据库的类型,目前支持mysql、pgsql
     alias-name: "" # 数据库的名称,注意: alias-name 需要在db-list中唯一
-    path: ''
-    port: ''
+    path: '10.0.12.10'
+    port: '3306'
     config: ''
-    db-name: ''
-    username: ''
-    password: ''
+    db-name: 'blog'
+    username: 'root'
+    password: 'root@123'
     max-idle-conns: 10
     max-open-conns: 100
     log-mode: ""
