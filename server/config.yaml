@@ -22,7 +22,7 @@ zap:
 # redis configuration
 redis:
   db: 0
-  addr: '10.0.12.10:6379'
+  addr: '127.0.0.1:6379'
   password: ''
 
 # email configuration
@@ -57,7 +57,7 @@ captcha:
 # mysql connect configuration
 # 未初始化之前请勿手动修改数据库信息！！！如果一定要手动初始化请看（https://gin-vue-admin.com/docs/first_master）
 mysql:
-  path: '10.0.12.10'
+  path: '127.0.0.1'
   port: '3306'
   config: ''
   db-name: 'blog'
@@ -86,7 +86,7 @@ db-list:
   - disabled: true # 是否启用
     type: "" # 数据库的类型,目前支持mysql、pgsql
     alias-name: "" # 数据库的名称,注意: alias-name 需要在db-list中唯一
-    path: '10.0.12.10'
+    path: '127.0.0.1'
     port: '3306'
     config: ''
     db-name: 'blog'
