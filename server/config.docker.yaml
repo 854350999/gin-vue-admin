@@ -22,7 +22,7 @@ zap:
 # redis configuration
 redis:
   db: 0
-  addr: '177.7.0.14:6379'
+  addr: '10.0.12.10:6379'
   password: ''
 
 # email configuration
@@ -57,12 +57,12 @@ captcha:
 # mysql connect configuration
 # 未初始化之前请勿手动修改数据库信息！！！如果一定要手动初始化请看（https://gin-vue-admin.com/docs/first_master）
 mysql:
-  path: ''
-  port: ''
+  path: '10.0.12.10'
+  port: '3306'
   config: ''
-  db-name: ''
-  username: ''
-  password: ''
+  db-name: 'blog'
+  username: 'root'
+  password: 'root@123'
   max-idle-conns: 10
   max-open-conns: 100
   log-mode: ""
